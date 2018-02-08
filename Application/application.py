@@ -1,12 +1,10 @@
 import os
 import sys
 from flask import Flask, jsonify, redirect, render_template, request, url_for
-from nocache import nocache
 
 app = Flask(__name__)
 
 @app.route('/', methods=["GET", "POST"])
-@nocache
 def index():
 	if request.method == "GET":
 
