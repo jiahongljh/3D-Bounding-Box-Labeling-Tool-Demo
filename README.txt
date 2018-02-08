@@ -12,5 +12,9 @@ ___________________________________________________________________
 
 How to Use the Software:
 
-Double click instructions.cmd to open an image and a website that explain the tool
+Annotated screenshot of tool: is in Application/static/demo/instructions.jpg
+Website with animation of tool functions: https://github.com/CPFL/3d_labeling_tools
+
+Double click instructions.cmd to automatically open the image and website
+
 
