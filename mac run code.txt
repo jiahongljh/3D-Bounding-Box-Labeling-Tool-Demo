@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cd /Users/admin/Desktop/Bounding\ Box\ Tool
+export FLASK_APP=application.py
+flask run
+
+
+echo Please do not close this window while annotations are being done
+echo However, you may minimise it
+echo If you accidentally close your browser window, just open http://localhost:5000/ in your favourite browser
+
+flask run
